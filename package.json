@@ -1,6 +1,6 @@
 {
   "name": "media-kit-root",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "This package.json is not published to npm, modify the file in package/package.json",
   "packageManager": "yarn@4.1.0",
   "workspaces": [

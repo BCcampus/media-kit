@@ -1,6 +1,6 @@
 {
   "name": "@bccampus/media-kit",
-  "version": "0.2.0",
+  "version": "0.0.1",
   "description": "Base React component to create composite widgets",
   "homepage": "https://github.com/bccampus/media-kit",
   "packageManager": "yarn@4.1.0",
