@@ -1,0 +1,178 @@
+import { InstallScript } from './components/InstallScript/InstallScript';
+import { LogoBCcampus, LogoBCcampusWithTagline, IconBCcampus, COLORS } from '@bccampus/media-kit';
+
+## Installation
+<InstallScript packages="@bccampus/media-kit" />
+
+## Colors
+
+<div style={{ display: 'flex', gap: '2rem' }}>
+  <div
+    style={{
+      width: '100%',
+      padding: '1rem',
+      backgroundColor: COLORS.DarkBlue,
+      color: COLORS.Light,
+      fontWeight: 600,
+      textAlign: 'center',
+      alignContent: 'center',
+    }}
+  >
+    Dark Blue {COLORS.DarkBlue}
+  </div>
+  <div
+    style={{
+      width: '100%', 
+      padding: '1rem',
+      backgroundColor: COLORS.DarkTurquoise,
+      color: COLORS.Light,
+      fontWeight: 600,
+      textAlign: 'center',
+      alignContent: 'center',
+    }}
+  >
+    Dark Turquoise {COLORS.DarkTurquoise}
+  </div>
+  <div
+    style={{
+      width: '100%', 
+      padding: '1rem',
+      backgroundColor: COLORS.Orange,
+      color: COLORS.Dark,
+      fontWeight: 600,
+      textAlign: 'center',
+      alignContent: 'center',
+    }}
+  >
+    Orange {COLORS.Orange}
+  </div>
+  <div
+    style={{
+      width: '100%', 
+      padding: '1rem',
+      backgroundColor: COLORS.Turquoise,
+      color: COLORS.Light,
+      fontWeight: 600,
+      textAlign: 'center',
+      alignContent: 'center',
+    }}
+  >
+    Turquoise {COLORS.Turquoise}
+  </div>
+  <div
+    style={{
+      width: '100%', 
+      padding: '1rem',
+      backgroundColor: COLORS.Sand,
+      color: COLORS.Dark,
+      fontWeight: 600,
+      textAlign: 'center',
+      alignContent: 'center',
+    }}
+  >
+    <div>Sand</div> {COLORS.Sand}
+  </div>
+</div>
+
+ ```tsx
+  import { COLORS } from '@bccampus/media-kit';
+
+  <div style={{backgroundColor: COLORS.DarkBlue, color: COLORS.Light, }}>
+    Dark Blue
+    {COLORS.DarkBlue}
+  </div>
+ ```
+
+## Logo 
+
+<div style={{ display: 'flex', gap: '2rem', textAlign: 'center' }}>
+  <div style={{ padding: '1rem', flex: 1 }}>
+    <strong>Light</strong>
+  </div>
+  <div style={{ padding: '1rem', flex: 1 }}>
+    <strong>Dark</strong>
+  </div>
+  <div style={{ padding: '1rem', flex: 1 }}>
+    <strong>Color</strong>
+  </div>
+</div>
+
+<div style={{ display: 'flex', gap: '2rem', height: '10rem' }}>
+  <div style={{ backgroundColor: COLORS.Dark, padding: '1rem', flex: 1 }}>
+    <LogoBCcampus size="100%" variant="white" />
+  </div>
+  <div style={{ padding: '1rem', flex: 1 }}>
+    <LogoBCcampus size="100%" variant="black" />
+  </div>
+  <div style={{ padding: '1rem', flex: 1 }}>
+    <LogoBCcampus size="100%" variant="color" />
+  </div>
+</div>
+ 
+ ```tsx
+  import { LogoBCcampus } from '@bccampus/media-kit';
+
+  <LogoBCcampus size="100%" variant="color" />
+ ```
+
+## Logo with Tagline
+
+<div style={{ display: 'flex', flexDirection:'column', gap: '2rem'  }}>
+  <div style={{ flex: 1 }}>
+    <strong>Light</strong>
+    <div style={{ backgroundColor: COLORS.Dark, padding: '1rem', flex: 1 }}>
+      <LogoBCcampusWithTagline size="100%" variant="white" />
+    </div>
+  </div>
+  <div style={{ flex: 1 }}>
+    <strong>Dark</strong>
+    <div style={{ padding: '1rem', flex: 1 }}>
+      <LogoBCcampusWithTagline size="100%" variant="black" />
+    </div>
+  </div>
+  <div style={{ flex: 1 }}>
+    <strong>Color</strong>
+    <div style={{ padding: '1rem', flex: 1 }}>
+      <LogoBCcampusWithTagline size="100%" variant="color" />
+    </div>
+  </div>
+</div>
+ 
+ ```tsx
+  import { LogoBCcampusWithTagline } from '@bccampus/media-kit';
+
+  <LogoBCcampusWithTagline size="100%" variant="color" />
+ ```
+
+## Icon
+
+<div style={{ display: 'flex', gap: '2rem', textAlign: 'center' }}>
+  <div style={{ padding: '1rem', flex: 1 }}>
+    <strong>Light</strong>
+  </div>
+  <div style={{ padding: '1rem', flex: 1 }}>
+    <strong>Dark</strong>
+  </div>
+  <div style={{ padding: '1rem', flex: 1 }}>
+    <strong>Color</strong>
+  </div>
+</div>
+
+<div style={{ display: 'flex', gap: '2rem', height: '10rem' }}>
+  <div style={{ backgroundColor: COLORS.Dark, padding: '1rem', flex: 1 }}>
+    <IconBCcampus size="100%" variant="white" />
+  </div>
+  <div style={{ padding: '1rem', flex: 1 }}>
+    <IconBCcampus size="100%" variant="black" />
+  </div>
+  <div style={{ padding: '1rem', flex: 1 }}>
+    <IconBCcampus size="100%" variant="color" />
+  </div>
+</div>
+ 
+ ```tsx
+  import { IconBCcampus } from '@bccampus/media-kit';
+  
+  <IconBCcampus size="100%" variant="color" />
+ ```
+
